@@ -4,7 +4,9 @@
 This plot shows the Body Mass Index (BMI) of the top 100 Baseball players based on number of career home runs from a list of 1157 Major League Baseball players. The axes indicate the Home runs and BMI of the players. Data point are colored by ........(player’s handedness and the legend can be used to toggle between them). The plot also highlights.......(the players who are in ideal BMI range to show how BMI relates to the performance of a player).
 
 ###Design
-Exploratory Data Analysis using Plot.ly  
+The inital Baseball Udacity dataset included 1157 player entires and corresponding handedness, weight (in pounds), height (in inches) , batting average and number of Home Runs. I used Plotly to explore the data:
+
+
 
 The Body Mass Index (BMI) is a calculation used to determine the level of body fat. It helps to determine the overall fitness of an individual. Much research has been conducted into the importance of BMI on sporting performance so I wanted to explore what impact the BMI level had on performance in Baseball. To calculate BMI I used:
 
