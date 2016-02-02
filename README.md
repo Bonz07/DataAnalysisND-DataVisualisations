@@ -1,10 +1,9 @@
 # DataVisualisations
-Udacity course
 
-####Summary
+###Summary
 
-####Design
+###Design
 
-####Feedback
+###Feedback
 
-####Resources
+###Resources
