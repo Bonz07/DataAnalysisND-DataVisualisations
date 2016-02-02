@@ -6,7 +6,13 @@ This plot shows the Body Mass Index (BMI) of the top 100 Baseball players based 
 ###Design
 The inital Baseball Udacity dataset included 1157 player entires and corresponding handedness, weight (in pounds), height (in inches) , batting average and number of Home Runs. I used Plotly to explore the data:
 
-<img src="https://github.com/Bonz07/DataVisualisations/images/HR.vs.BattingAvg(hand).png" width="400">
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BattingAvg(hand).png" width="600">  
+  
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BattingAvg%20(BMI).png" width="600">  
+  
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(hand).png" width="600">  
+
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(BMI).png" width="600">  
 
 The Body Mass Index (BMI) is a calculation used to determine the level of body fat. It helps to determine the overall fitness of an individual. Much research has been conducted into the importance of BMI on sporting performance so I wanted to explore what impact the BMI level had on performance in Baseball. To calculate BMI I used:
 
