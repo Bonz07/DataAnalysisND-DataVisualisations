@@ -22,10 +22,9 @@ Final Visualisation and Summary of findings
 
 I made use of the following resources for my project:
 
-https://google.github.io/styleguide/javascriptguide.xml
-https://plot.ly/
-http://dimplejs.org/
-http://valueoverreplacementgrit.com/2011/04/26/baseball-and-the-bmi/
-http://www.calcbmi.com/
-http://www.cancer.org/cancer/cancercauses/dietandphysicalactivity/bodyweightandcancerrisk/body-weight-and-cancer-risk-adult-bmi
-
+Javascript Guide - https://google.github.io/styleguide/javascriptguide.xml  
+Plot.ly - https://plot.ly/  
+Dimple.js - http://dimplejs.org/  
+How to calculate BMI - http://www.calcbmi.com/  
+BMI category ranges - http://www.cancer.org/cancer/cancercauses/dietandphysicalactivity/bodyweightandcancerrisk/body-weight-and-cancer-risk-adult-bmi  
+Article comparing BMI scores for top Baseball performers over past 100 years - http://valueoverreplacementgrit.com/2011/04/26/baseball-and-the-bmi/  
