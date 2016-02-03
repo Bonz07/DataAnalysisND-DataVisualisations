@@ -53,21 +53,27 @@ The x-axis of the chart has been limited to BMI values between 20 and 30 to focu
 This chart clearly shows that the all time greatest home run hitters in Baseball didn't have the best batting average, they consistently hit around 0.27. Despite there being a larger numnber of right handers in the top 100 home run hitters in Baseball the percentage of left handers is 32% which far exceeds the expected 10% of the population who are estimated to be left handed. The 7% of batters who use both hands is also much higher than would be expected for a sample population of 100.
 
 ##Feedback
-After finishing my visualisation I asked three data analyst colleagues to look at my vicualisation and provide feedback on what worked and what could be improved to make it a more effective visualisation.
+After finishing my visualisation I asked three data analyst colleagues to look at my visualisation and provide feedback on what worked and what could be improved to make it a more effective visualisation.
 
 ####Interview 1
---remove gridlines
---make more interactive using clickable legend
+*"The chart would benefit from more interaction, you've achieved a walk through the data and I like the tooltip but my preference would be to have an interactive legend to highlight the groups more. Also I would remove the gridlines as it distracts from the chart"*
+
+<img src="" width="800">
 
 ####Interview 2
--add in BMI ranges in background of chart
--improve data in hover over
+*"It's interesting to compare the BMI vs Run rate and previously you spoke about the BMI category ranges however these don't appear on the chart. It would be great it you could have this in the background so its clear which category each player is in"*
+
+<img src="" width="800">
 
 ####Interview 3
--show ratios of right/legt/both handedness for avg batting average, avg home run
+*"I really like the chart and the tooltip works well. Only thing I would add is you highlighted in your summary about the interesting ratios of left/right handers. Anyway of brining this (average home runs per group and maybe average batting avg) out in the chart maybe using the interactive legend would be awesome!"*
+
+<img src="" width="800">
 
 ####Final Design and Summary 
 Final Visualisation and Summary of findings  
+
+<img src="" width="800">
 
 ##Resources
 
