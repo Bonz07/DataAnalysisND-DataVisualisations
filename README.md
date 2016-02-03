@@ -4,21 +4,14 @@
 This plot shows the Body Mass Index (BMI) of the top 100 Baseball players based on number of career home runs from a list of 1157 Major League Baseball players. The axes indicate the Home runs and BMI of the players. Data point are colored by ........(player’s handedness and the legend can be used to toggle between them). The plot also highlights.......(the players who are in ideal BMI range to show how BMI relates to the performance of a player).
 
 ###Design
-The inital Baseball Udacity dataset included 1157 player entires and corresponding handedness, weight (in pounds), height (in inches) , batting average and number of Home Runs. I used Plotly to explore the data:
+The inital Baseball Udacity dataset included 1157 player entires and corresponding handedness, weight (in pounds), height (in inches) , batting average and number of Home Runs. I used Plotly to explore the inital data to see the relationship between Home Runs and a player's Batting Average:
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BattingAvg(hand).png" width="600">  
   
-<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BattingAvg%20(BMI).png" width="600">  
-  
-<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(hand).png" width="600">  
-
-<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(BMI).png" width="600">  
-
-The Body Mass Index (BMI) is a calculation used to determine the level of body fat. It helps to determine the overall fitness of an individual. Much research has been conducted into the importance of BMI on sporting performance so I wanted to explore what impact the BMI level had on performance in Baseball. To calculate BMI I used:
+This initial plot suggested a skewed bell curve with an optimal batting average between 0.25-0.28 to maximse the number of home runs. This made me want to find out how the other features in the data affected Home Runs and whether I could determine optimal features for a Baseball player. Rather than using height and weight as independant features I decided to use the BMI number for each player. The Body Mass Index (BMI) is a calculation used to determine the level of body fat, and helps to determine the overall fitness of an individual. Much research has been conducted into the importance of BMI on sporting performance so I wanted to explore what impact the BMI level had on performance in Baseball. To calculate BMI I used:
 
 **BMI** = (**weight**(in kilograms)/**height**(in metres))/**height**(in metres)  
 
-  
 The following table contains the BMI weight groups for men who are aged 20 years or older:  
 
 | Category      | BMI range         |
@@ -29,6 +22,13 @@ The following table contains the BMI weight groups for men who are aged 20 years
 | Obese         | BMI > 30          |  
   
 I added a *BMI* column to my data which contained the result of the above formula or each Baseball player as well as a *BMI category* column which provided the name of the category each BMI value corresponded to. 
+
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(BMI).png" width="600">    
+
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(hand).png" width="600">  
+
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI(bins).png" width="600">
+
 
 Overall trends (home runs vs binned BMI)  
 1st data visualisation using dimple.js  
