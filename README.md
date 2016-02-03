@@ -48,22 +48,23 @@ This started to convey a more coherant story of the Baseball data however I stil
 
 The x-axis of the chart has been limited to BMI values between 20 and 30 to focus on the subset of the data. From this chart it was clear that the majority of the top 100 Baseball players ranked by career Home Runs were right handed with a BMI score of between 23 and 27. Finally I wanted to incorporate this interesting find at the start of my EDA on batting averages for the top Home Run hitters, index3.html shows the final chart:
 
-<img src="" width="800">
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/dimpleVis4.png" width="800">
+
+This chart clearly shows that the all time greatest home run hitters in Baseball didn't have the best batting average, they consistently hit around 0.27. Despite there being a larger numnber of right handers in the top 100 home run hitters in Baseball the percentage of left handers is 32% which far exceeds the expected 10% of the population who are estimated to be left handed. The 7% of batters who use both hands is also much higher than would be expected for a sample population of 100.
 
 ##Feedback
 After finishing my visualisation I asked three data analyst colleagues to look at my vicualisation and provide feedback on what worked and what could be improved to make it a more effective visualisation.
 
 ####Interview 1
--change size based on batting average
--remove gridlines
+--remove gridlines
+--make more interactive using clickable legend
 
 ####Interview 2
 -add in BMI ranges in background of chart
 -improve data in hover over
 
 ####Interview 3
--make more interactive using clickable legend
--show ratios of right/legt/both handedness
+-show ratios of right/legt/both handedness for avg batting average, avg home run
 
 ####Final Design and Summary 
 Final Visualisation and Summary of findings  
@@ -78,3 +79,6 @@ I made use of the following resources during my project:
 [How to calculate BMI](http://www.calcbmi.com/)    
 [BMI category ranges](http://www.cancer.org/cancer/cancercauses/dietandphysicalactivity/bodyweightandcancerrisk/body-weight-and-cancer-risk-adult-bmi)    
 [Article comparing BMI scores for top Baseball performers over past 100 years](http://valueoverreplacementgrit.com/2011/04/26/baseball-and-the-bmi/)  
+[CSS font stack](http://www.cssfontstack.com/)  
+[Article on Handedness](https://en.wikipedia.org/wiki/Handedness)  
+
