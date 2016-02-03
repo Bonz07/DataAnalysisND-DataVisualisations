@@ -34,6 +34,10 @@ Taking the above data and binning the rounded BMI values to show the average num
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI(bins).png" width="600">
 
 ####Data Visualisations using dimple.js
+Using dimple.js I plotted recreated a similar plot to the one I had sketched using plotly:
+
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/dimpleVis1.jpg" width="600">
+
 
 1st data visualisation using dimple.js  
 Top 100 players using dimple.js  
