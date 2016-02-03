@@ -56,12 +56,12 @@ This chart clearly shows that the all time greatest home run hitters in Baseball
 After finishing my visualisation I asked three data analyst colleagues to look at my visualisation and provide feedback on what worked and what could be improved to make it a more effective visualisation.
 
 ####Interview 1
-*"The chart would benefit from more interaction, you've achieved a walk through the data and I like the tooltip but my preference would be to have an interactive legend to highlight the groups more. Also I would remove the gridlines as it distracts from the chart"*
+*"The chart would benefit from more interaction, you've achieved a walk through the data and I like the tooltip but my preference would be to have an interactive legend to highlight the groups more. Also I would remove the gridlines as it distracts from the chart."*
 
 <img src="" width="800">
 
 ####Interview 2
-*"It's interesting to compare the BMI vs Run rate and previously you spoke about the BMI category ranges however these don't appear on the chart. It would be great it you could have this in the background so its clear which category each player is in"*
+*"It's interesting to compare the BMI vs Run rate and previously you spoke about the BMI category ranges however these don't appear on the chart. It would be great it you could have this in the background so its clear which category each player is in. Also I would change the opacity of the points so it's clearer where you have overlapping points."*
 
 <img src="" width="800">
 
