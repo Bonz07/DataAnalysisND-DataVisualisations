@@ -46,7 +46,9 @@ This started to convey a more coherant story of the Baseball data however I stil
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/dimpleVis3.png" width="800">
 
-- focus on top 100 players based on home runs (index2.html)
+The x-axis of the chart has been limited to BMI values between 20 and 30 to focus on the subset of the data. From this chart it was clear that the majority of the top 100 Baseball players ranked by career Home Runs were right handed with a BMI score of between 23 and 27. Finally I wanted to incorporate this interesting find at the start of my EDA on batting averages for the top Home Run hitters, index3.html shows the final chart:
+
+<img src="" width="800">
 
 ##Feedback
 After finishing my visualisation I asked three data analyst colleagues to look at my vicualisation and provide feedback on what worked and what could be improved to make it a more effective visualisation.
