@@ -57,12 +57,23 @@
         Order variables for mouse hover and add name to create unique
         key to avoid dimple.js aggregation of keys
       */
-
-          var s = myChart.addSeries(["Name",
-                                     "Home Runs", 
-                                      "BMI"
+          var s = myChart.addSeries([ "Name",
+                                      "Home Runs", 
+                                      "BMI",
+                                      "Handedness"
                                      ], 
                                     dimple.plot.scatter);
+      /*
+        Add a legend to facet the data points based on Handedness
+      */
+          var myLegend = myChart.addLegend(150, 
+                                           430, 
+                                           1100, 
+                                           200 
+                                           );
+          myLegend.fontFamily = 'Optima';
+          myLegend.fontSize = "11000px";
+
           myChart.draw();      
           
         };
