@@ -21,11 +21,13 @@ The following table contains the BMI weight groups for men who are aged 20 years
 | Overweight    | 25 > BMI < 29.9   |  
 | Obese         | BMI > 30          |  
   
-I added a *BMI* column to my data which contained the result of the above formula or each Baseball player as well as a *BMI category* column which provided the name of the category each BMI value corresponded to. 
+I added a *BMI* column to my data which contained the result of the above formula or each Baseball player as well as a *BMI category* column which provided the name of the category each BMI value corresponded to. The follComparing Home Runs vs BMI values
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(BMI).png" width="600">    
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(hand).png" width="600">  
+
+Taking the above data and binning the rounded BMI values to show the average number of Home Runs for each BMI:
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI(bins).png" width="600">
 
