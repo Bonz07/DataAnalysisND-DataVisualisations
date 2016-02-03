@@ -23,29 +23,27 @@ The following table contains the BMI weight groups for men who are aged 20 years
 | Overweight    | 25 > BMI < 29.9   |  
 | Obese         | BMI > 30          |  
   
-I added a *BMI* column to my data which contained the result of the above formula or each Baseball player as well as a *BMI category* column which provided the name of the category each BMI value corresponded to. The follComparing Home Runs vs BMI values
+I added a *BMI* column to my data which contained the result of the above formula or each Baseball player as well as a *BMI category* column which provided the name of the category each BMI value corresponded to. The following chart compares Home Runs vs BMI:
 
-<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(BMI).png" width="600">    
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(hand).png" width="600"> 
 
-<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(hand).png" width="600">  
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI%20(BMI).png" width="600">  
 
 Taking the above data and binning the rounded BMI values to show the average number of Home Runs for each BMI:
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BMI(bins).png" width="600">
 
 ####Data Visualisations using dimple.js
-Using dimple.js I plotted recreated a similar plot to the one I had sketched using plotly:
+Using dimple.js I plotted recreated a similar plot to the one I had sketched using plotly (index.html):
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/dimpleVis1.png" width="600">
 
 The chart displayed.......  
-- change colouring to reflect handedness
-- focus on top 100 players based on home runs
-- 
-
+- change colouring to reflect handedness (index1.html)
+- focus on top 100 players based on home runs (index2.html)
 
 ##Feedback
-After finishing my visualisation I asked three data analysis friends to look at it and provide feedback on what worked and what could be improved to make it a more effective visualisation.
+After finishing my visualisation I asked three data analyst colleagues to look at my vicualisation and provide feedback on what worked and what could be improved to make it a more effective visualisation.
 
 ####Interview 1
 -change size based on batting average
