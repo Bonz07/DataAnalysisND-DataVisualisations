@@ -61,12 +61,12 @@ After finishing my visualisation I asked three data analyst colleagues to look a
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/interview1.png" width="800">
 
 ####Interview 2
-*"It's interesting to compare the BMI vs Run rate and previously you spoke about the BMI category ranges however these don't appear on the chart. It would be great it you could have this in the background so its clear which category each player is in. Also I would change the opacity of the points so it's clearer where you have overlapping points."*
+*"It's interesting to compare the BMI vs Run rate and previously you spoke about the BMI category ranges however these don't appear on the chart. It would be great it you could have this in the background so its clear which category each player is in."*
 
-<img src="" width="800">
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/interview2.png" width="800">
 
 ####Interview 3
-*"I really like the chart and the tooltip works well. Only thing I would add is you highlighted in your summary about the interesting ratios of left/right handers. Anyway of brining this (average home runs per group and maybe average batting avg) out in the chart maybe using the interactive legend would be awesome!"*
+*"I really like the chart and the tooltip works well. Only thing I would add is you highlighted in your summary about the interesting ratios of left/right handers. It would be great to bring this (average home runs per group and maybe average batting avg) out in the chart, maybe using the interactive legend? That would be awesome!"*
 
 <img src="" width="800">
 
