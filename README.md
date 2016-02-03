@@ -38,8 +38,12 @@ Using dimple.js I plotted recreated a similar plot to the one I had sketched usi
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/dimpleVis1.png" width="600">
 
-The chart displayed.......  
-- change colouring to reflect handedness (index1.html)
+The chart translated well into dimple however it was very busy and the colours didn't add anything so I decided to first encode the handedness of the Baseball player into the colour of the data points on the scatter plot as shown in index1.html :
+
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/dimpleVis2.png" width="600">
+
+This started to convey a more coherant story of the Baseball data however I still felt the chart was too busy and so the real detail and message was getting lost. There were many players who never hit a single Home Run and therefore the chart was very busy along the x-axis without really telling us anything. I decided at this point to focus only on the top 100 Home Run hitters within the dataset. index2.html shows the updated chart:
+
 - focus on top 100 players based on home runs (index2.html)
 
 ##Feedback
