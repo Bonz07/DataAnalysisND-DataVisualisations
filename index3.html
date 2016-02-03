@@ -30,7 +30,7 @@
           
           d3.select('body')
             .append('h2')
-            .text("Baseball - Home Runs vs BMI");
+            .text("Top 100 Baseball Players - Home Runs vs BMI");
           
           var svg = d3.select("body")
             .append("svg")
@@ -62,11 +62,17 @@
           z.overrideMin = 0.22
           z.overrideMax = 0.4
          
-         
-          x.fontSize = "10px"
-          y.fontSize = "10px"
+
+       /*Set font and font size*/  
+          x.fontSize = "18px";
+          y.fontSize = "18px";
           x.fontFamily = 'Optima';
           y.fontFamily = 'Optima';
+
+       /*Format axis to prevent rounding by tooltips*/
+          z.tickFormat = ",.2f";
+          x.tickFormat = ",.2f";
+
 
 
 
@@ -75,10 +81,9 @@
         key to avoid dimple.js aggregation of keys
       */
           var s = myChart.addSeries([ "Name",
-                                      "Home Runs", 
-                                      "BMI",
-                                      "Handedness"
-                                     ], 
+                                      "Home Runs",
+                                      "Handedness",
+                                      ], 
                                     dimple.plot.scatter);
       /*
         Add a legend to facet the data points based on Handedness
@@ -89,7 +94,7 @@
                                            200 
                                            );
           myLegend.fontFamily = 'Optima';
-          myLegend.fontSize = "10px";
+          myLegend.fontSize = "18px";
 
           myChart.draw();      
           

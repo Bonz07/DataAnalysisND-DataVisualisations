@@ -52,14 +52,24 @@
 
           var y = myChart.addMeasureAxis("y", 
                                          "Home Runs");
-           
+      
+      /*Set font and font size*/  
+          x.fontSize = "18px";
+          y.fontSize = "18px";
+          x.fontFamily = 'Optima';
+          y.fontFamily = 'Optima';
+
+       /*Format axis to prevent rounding by tooltips*/
+          x.tickFormat = ",.2f";
+     
+      
+
       /*
         Order variables for mouse hover and add name to create unique
         key to avoid dimple.js aggregation of keys
       */
           var s = myChart.addSeries([ "Name",
-                                      "Home Runs", 
-                                      "BMI",
+                                      "Home Runs",
                                       "Handedness"
                                      ], 
                                     dimple.plot.scatter);
@@ -72,7 +82,7 @@
                                            200 
                                            );
           myLegend.fontFamily = 'Optima';
-          myLegend.fontSize = "10px";
+          myLegend.fontSize = "18px";
 
           myChart.draw();      
           
