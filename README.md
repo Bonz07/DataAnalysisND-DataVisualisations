@@ -55,6 +55,7 @@ After finishing my visualisation I asked three data analyst colleagues to look a
 
 ####Interview 3
 -make more interactive using clickable legend
+-show ratios of right/legt/both handedness
 
 ####Final Design and Summary 
 Final Visualisation and Summary of findings  
