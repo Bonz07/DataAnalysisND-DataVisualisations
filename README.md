@@ -6,7 +6,7 @@ This plot shows the Body Mass Index (BMI) of the top 100 Baseball players based 
 ##Design
 ####Exploratory Data Analysis using Plotly
 
-The inital Baseball Udacity dataset included 1157 player entires and corresponding handedness, weight (in pounds), height (in inches) , batting average and number of Home Runs. I used Plotly to explore the inital data to see the relationship between Home Runs and a player's Batting Average:
+The inital Baseball Udacity dataset included 1157 player entries and corresponding handedness, weight (in pounds), height (in inches) , batting average and number of Home Runs. I used Plotly to explore the inital data to see the relationship between Home Runs and a player's Batting Average:
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BattingAvg(hand).png" width="600">  
   
@@ -38,20 +38,25 @@ Using dimple.js I plotted recreated a similar plot to the one I had sketched usi
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/dimpleVis1.png" width="600">
 
+The chart displayed.......  
+- change colouring to reflect handedness
+- focus on top 100 players based on home runs
+- 
 
-1st data visualisation using dimple.js  
-Top 100 players using dimple.js  
-version 2  
-version 3  
 
 ##Feedback
 After finishing my visualisation I asked three data analysis friends to look at it and provide feedback on what worked and what could be improved to make it a more effective visualisation.
 
 ####Interview 1
+-change size based on batting average
+-remove gridlines
 
 ####Interview 2
+-add in BMI ranges in background of chart
+-improve data in hover over
 
 ####Interview 3
+-make more interactive using clickable legend
 
 ####Final Design and Summary 
 Final Visualisation and Summary of findings  
