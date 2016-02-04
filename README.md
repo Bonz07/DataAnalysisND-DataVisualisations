@@ -71,9 +71,9 @@ After finishing my visualisation I asked three data analyst colleagues to look a
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/interview3.png" width="800">
 
 ####Final Design and Summary 
-Final Visualisation and Summary of findings  
+My final baseball data visualisation was:
 
-<img src="" width="800">
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/final_chart.png" width="800">
 
 51% of the top 100 Home Run hitters would be classed as Overweight according to their BMI score, with the other 49% in the normal weight category. A more helpful measure is that 85% of the top 100 Baseball players according to number of career Home Runs have a BMI score between 23 and 27.
 
