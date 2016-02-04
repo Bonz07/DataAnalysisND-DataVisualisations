@@ -6,7 +6,7 @@ This plot shows the Body Mass Index (BMI) of the top 100 Baseball players based 
 ##Design
 ####Exploratory Data Analysis using Plotly
 
-The inital Baseball Udacity dataset included 1157 player entries and corresponding handedness, weight (in pounds), height (in inches) , batting average and number of Home Runs. I used Plotly to explore the inital data to see the relationship between Home Runs and a player's Batting Average:
+The inital Baseball Udacity dataset included 1157 player entries and corresponding handedness, weight (in pounds), height (in inches) , batting average and number of Home Runs. I wanted to explore the relationship between these different variables to determine if there was a data driven reason behind successful baseball players, for this reason I decided to visualise my data using a scatter plot. I used Plotly to explore the inital data to see the relationship between Home Runs and a player's Batting Average:
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/HR.vs.BattingAvg(hand).png" width="800">  
   
@@ -74,6 +74,15 @@ After finishing my visualisation I asked three data analyst colleagues to look a
 Final Visualisation and Summary of findings  
 
 <img src="" width="800">
+
+51% of the top 100 Home Run hitters would be classed as Overweight according to their BMI score, with the other 49% in the normal weight category. A more helpful measure is that 85% of the top 100 Baseball players according to number of career Home Runs have a BMI score between 23 and 27.
+
+39% of these top 100 baseball players have the ability to play with their left hand. This is a much higher percentage than would be expected from a random sample of the male population and highlights the impact of either playing left handed or having the ability to play baseball with either hand.
+
+I chose to use colour to encode handedness as there were only three types so only a few colours needed to be used and it helped bring out the fact that there were more successful left handed baseball players than expected in this size sample. 
+
+It was important to include batting average in the visualisation as there was an interesting bell curve relationship between it and the number of career home runs. The most effective batting average to maximise career home runs seemed to be around 0.27. Above this and the number of total home runs appeared to decrease, this could be due to having more hits of the ball of less power and consistently making base. Below this and the player might not hit enough balls consistently to have the opportunity to achieve a large number of career home runs. Using the bubble size to encode this variable helped communicate that the larger circles are not at the top of the chart and there a number of small circles high up on the home run count.
+
 
 ##Resources
 
