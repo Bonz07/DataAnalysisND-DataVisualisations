@@ -66,7 +66,7 @@ After finishing my visualisation I asked three data analyst colleagues to look a
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/interview2.png" width="800">
 
 ####Interview 3
-*"I really like the chart and the tooltip works well. Only thing I would add is you highlighted in your summary about the interesting ratios of left/right handers. It would be great to bring this (average home runs per group and maybe average batting avg) out in the chart, maybe using the interactive legend? That would be awesome!"*
+*"I really like the chart and the tooltip works well. Similar to the other two I would look to include info on the BMI categories and make the chart more interactive. Would be useful to tidy up the tooltip information and include a more informative title. Overall I think it's starting to look awesome!"*
 
 <img src="" width="800">
 
