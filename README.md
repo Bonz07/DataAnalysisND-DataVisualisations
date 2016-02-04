@@ -68,7 +68,7 @@ After finishing my visualisation I asked three data analyst colleagues to look a
 ####Interview 3
 *"I really like the chart and the tooltip works well. Similar to the other two I would look to include info on the BMI categories and make the chart more interactive. Would be useful to tidy up the tooltip information and include a more informative title. Overall I think it's starting to look awesome!"*
 
-<img src="" width="800">
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/interview3.png" width="800">
 
 ####Final Design and Summary 
 Final Visualisation and Summary of findings  
