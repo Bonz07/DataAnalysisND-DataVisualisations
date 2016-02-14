@@ -1,6 +1,8 @@
 # Udacity Data Visualisations Project
 
 ##Summary
+......
+
 This plot shows the Body Mass Index (BMI) of the top 100 Baseball players based on number of career home runs from a list of 1157 Major League Baseball players. The axes indicate the Home runs and BMI of the players. Data points are coloured by player’s handedness and the legend can be used to toggle between them. The plot also highlights the players who are in ideal BMI range to show how BMI relates to the performance of a baseball player.
 
 ##Design
@@ -50,7 +52,7 @@ The x-axis of the chart has been limited to BMI values between 20 and 30 to focu
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/dimpleVis4.png" width="800">
 
-This chart clearly shows that the all time greatest home run hitters in baseball didn't have the best batting average, instead they consistently hit around 0.27. Despite there being a larger number of right handers in the top 100 home run hitters in baseball the percentage of left handers was 32% which far exceeded the expected 10% of the population who are estimated to be left handed. The 7% of batters who used both hands was also much higher than would be expected from a sample population of 100.
+This chart clearly shows that the highest home run hitters in this dataset didn't have the best batting average, instead they consistently hit around 0.27. Despite there being a larger number of right handers in the top 100 home run hitters in baseball the percentage of left handers was 32% which far exceeded the expected 10% of the population who are estimated to be left handed. The 7% of batters who used both hands was also much higher than would be expected from a sample population of 100.
 
 ##Feedback
 After finishing my baseball data visualisation I asked three Data Analyst colleagues to look at my visualisation and provide feedback on what worked and what could be improved to make it a more effective visualisation.
