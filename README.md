@@ -72,6 +72,13 @@ After finishing my baseball data visualisation I asked three Data Analyst collea
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/interview3.png" width="800">
 
+####Udacity Reviewer feedback
+*"I look at the final visualization first before the README file, code or past iterations. Even though the chart is well designed and encoded, on its own, the visualization is more exploratory than explanatory; it allows the chart reader to explore the statistics of the top 100 players in the data set, but it isn't really showing a specific trend or explaining some sort of conclusion made after analyzing the data.
+
+I see big circles and small circles at all ranges on the y-axis. Looking at the tooltip, by process of elimination, circle radius is probably encoded to batting average although that isn't stated on the chart.
+
+Circle radius was encoded linearly to the batting average variable and then the limits on the variable were overridden in the code. A batting average of 0.24 looks tiny compared to a batting average of 0.28, which is misleading. The bigger circle looks about 10 times larger than the smaller circle, so the larger circle should map to a value of about 2.4 rather than 0.28. Circle radius should be encoded to the square root of the variable so that doubling the value doubles the area."*
+
 ####Final Design and Summary 
 My final baseball data visualisation was:
 
