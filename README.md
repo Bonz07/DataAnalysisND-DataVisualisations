@@ -1,9 +1,8 @@
 # Udacity Data Visualisations Project
 
 ##Summary
-......
 
-This plot shows the Body Mass Index (BMI) of the top 100 Baseball players based on number of career home runs from a list of 1157 Major League Baseball players. The axes indicate the Home runs and BMI of the players. Data points are coloured by player’s handedness and the legend can be used to toggle between them. The plot also highlights the players who are in ideal BMI range to show how BMI relates to the performance of a baseball player.
+This plot shows the Body Mass Index (BMI) of the top 100 Baseball players based on number of career home runs from a list of 1157 Major League Baseball players. The axes indicate the Home runs and BMI of the players. Data points are coloured by BMI and the legend can be used to toggle between them. The trend line shows the average number of home runs for each BMI value.
 
 ##Design
 ####Exploratory Data Analysis using Plotly
@@ -84,13 +83,9 @@ My final baseball data visualisation was:
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/final_chart.png" width="800">
 
-51% of the top 100 home run hitters would be classed as *Overweight* according to their BMI score, with the other 49% in the normal weight category. A more helpful measure was that 85% of the top 100 baseball players according to number of career home runs have a BMI score between 23 and 27.
+I decided to focus the final chart on the finding that the average career Home Runs increases with BMI. The earlier exploratory chart showed this trend and I wanted to explore this further. Focusing on the top 100 home run hitters reduced the prominance of this change but did allow me to look at similar players to see whether the positive relationship remains.
 
-39% of these top 100 baseball players have the ability to play with their left hand. This was a much higher percentage than would be expected from a random sample of the male population and highlights the importance of either playing left handed or having the ability to play baseball with either hand.
-
-I chose to use colour to encode handedness as there were only three types so only a few colours needed to be used and it helped bring out the fact that there were more successful left handed baseball players than expected in this size sample. 
-
-It was important to include batting average in the visualisation as there was an interesting bell curve relationship between it and the number of career home runs. The most effective batting average to maximise career home runs seemed to be around 0.27. Above this and the number of total home runs appeared to decrease, this could be due to the batter consistently trying to hit and make base. Below this and the player might not hit enough balls consistently to have the opportunity to achieve a large number of career home runs. Using the bubble size to encode this variable helped communicate that the larger circles are not at the top of the chart and there a number of small circles high up on the home run count.
+The final chart also shows that as BMI increases average home runs also increase. This could be explained by the players with a larger BMI having a greater power ratio increasing the chances of a successful hit resulting in a home run. As seen earlier in the EDA a large number of the players have a similar batting average meaning that something like BMI might make the difference between a good and a great home run hitter.  
 
 ##Resources
 
