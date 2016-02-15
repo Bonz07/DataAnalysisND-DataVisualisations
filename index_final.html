@@ -25,12 +25,12 @@
         
           "use strict";
           var margin = 50,
-              width = 1200,
+              width = 1500,
               height = 600;
           
           d3.select('body')
             .append('h2')
-            .text("How BMI affects career Home Runs in Baseball dataset's top 100 players");
+            .text("How average number of Home Runs increase with BMI in the top 100 Baseball players");
           
           var svg = d3.select("body")
             .append("svg")
@@ -43,6 +43,8 @@
         Background rectangle for the two BMI categorys. These are added first
         behind the chart to not affect the tootip
       */
+
+      /*
           svg.append("rect")
             .attr("x",100)
             .attr("y", 0)
@@ -58,22 +60,22 @@
             .attr("width", 525)
             .style("opacity", 0.1)
             .style("fill","red");
-      
-      /*
-        Add border line to shaded ares
       */
-          svg.append("line")
+      /*
+        Add border line to shaded areas
+      */
+      /*    svg.append("line")
                     .attr("x1",625)
                     .attr("x2", 625)
                     .attr("y1", 0)
                     .attr("y2", 340)
                     .style("stroke", "green")
                     .style("stroke-dasharray", "3");
-
+      */
       /*
        Add description about the BMI category ranges
       */ 
-          svg.selectAll("title_text")
+       /*   svg.selectAll("title_text")
             .data(["Normal BMI range"])
             .enter()
             .append("text")
@@ -112,75 +114,101 @@
       */
 
           var myChart = new dimple.chart(svg, data);
-          myChart.setBounds(100, 10, 1050, 330); 
-          
-      /*Define x axis and limits*/ 
-          var x = myChart.addMeasureAxis("x", 
-                                         "BMI");
-          x.overrideMin =  20;
-          x.overrideMax =  30;
-          x.showGridlines = false;
+          myChart.setBounds(100, 10, 1150, 330); 
 
+         
+      /*Define x axis and limits*/ 
+          var x = myChart.addCategoryAxis("x", 
+                                         "Rounded BMI");
+          x.showGridlines = false;
+          x.addOrderRule("Rounded BMI");
+          
       /*Define y axis and limits*/
           var y = myChart.addMeasureAxis("y", 
                                          "Home Runs");
           y.overrideMin = 0;
-          y.overrideMax = 650
+          y.overrideMax = 600
           y.showGridlines = false;
-           
-      /*Define Z axis and the limits*/
-          var z = myChart.addMeasureAxis("z", 
-                                        "Batting Average"); 
-          z.overrideMin = 0.22;
-          z.overrideMax = 0.4;
-         
+          
+          var y1 = myChart.addMeasureAxis("y", 
+                                         "Average Home Runs");
+          y1.overrideMin = 0;
+          y1.overrideMax = 600
+          y1.showGridlines = false;
 
        /*Set font and font size*/  
           x.fontSize = "18px";
           y.fontSize = "18px";
+          y1.fontSize = "18px";
           x.fontFamily = 'Optima';
           y.fontFamily = 'Optima';
-
-       /*Format axis to prevent rounding by tooltips*/
-          z.tickFormat = ",.2f";
-          x.tickFormat = ",.2f";
-
-
-
+          y1.fontFamily = 'Optima';
 
       /*
         Order variables for tooltip and add name to create unique
         key to avoid dimple.js aggregation of keys
-      */
+      */  
+
           var s = myChart.addSeries([ "Name",
                                       "Home Runs",
-                                      "Handedness",
+                                      "Rounded BMI",
                                       ], 
                                     dimple.plot.scatter);
+          var s1 = myChart.addSeries(null, dimple.plot.line, [x,y1]);
+          s1.lineWeight = 3;
+          s1.lineMarkers = true;
+
+
       /*
         Add a legend to facet the data points based on Handedness
       */
-          var myLegend = myChart.addLegend(150, 
-                                           430, 
-                                           1100, 
-                                           200 
-                                           );
+ 
+          var myLegend = myChart.addLegend(120, 
+                                           430,
+                                           1100,
+                                           200, 
+                                           "left",
+                                           s);
+      /*
+        Order the legend
+      */
+
+          myLegend._getEntries = function () {
+            var orderedValues = ["21", "22", "23", "24", "25", "26", "27", "28", "29"];
+            var entries = [];
+            orderedValues.forEach(function (v) {
+              entries.push(
+              {
+                key: v,
+                fill: myChart.getColor(v).fill,
+                stroke: myChart.getColor(v).stroke,
+                opacity: myChart.getColor(v).opacity,
+                series: s,
+                aggField: [v]
+              }
+            );
+            }, this);
+
+          return entries;
+        };
+
           myLegend.fontFamily = 'Optima';
           myLegend.fontSize = "18px";
           myChart.draw();      
-          
+                  
       /*
         Create interactive legend
       */
+      
           myChart.legends = [];
       
           svg.selectAll("title_text")
-            .data(["Click to add/remove players based on their Handedness"])
+            .data(["Click to add/remove players based on their BMI"])
             .enter()
             .append("text")
-              .attr("x", 280)
+              .attr("x", 120)
               .attr("y", function (d, i) 
-                    { return 440 + i * 14; })
+                    { return 420 + i * 14; })
               .style("font-family", 
                      "sans-serif")
               .style("font-size", 
@@ -193,8 +221,9 @@
       /*
         Add/Remove data points when legend is clicked
       */
+      
           var filterValues = dimple.getUniqueValues(data, 
-                                                    "Handedness");
+                                                    "Rounded BMI");
           myLegend.shapes.selectAll("rect")
             .on("click", function (e) {
               var hide = false;
@@ -215,12 +244,12 @@
               }
               filterValues = newFilters;
               myChart.data = dimple.filterData(data, 
-                                               "Handedness", 
+                                               "Rounded BMI", 
                                                filterValues);
               myChart.draw(600);
             
             });
-
+      
         };
       </script>
   </head>
