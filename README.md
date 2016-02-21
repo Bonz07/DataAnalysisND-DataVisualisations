@@ -90,7 +90,7 @@ After finishing my baseball data visualisation I asked three Data Analyst collea
 ####Final Design and Summary 
 My final baseball data visualisation was:
 
-<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/final_chart.png" width="800">
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/final_chart1.png" width="800">
 
 I decided to focus the final chart on the finding that the average career Home Runs increases with BMI. The earlier exploratory chart showed this trend and I wanted to explore this further. Initially I focused on the top 100 home run hitters, however this reduced the prominance of this change so I ultimately decided to use the full dataset of 1500+ baseball players. After grouping the players into nearest full BMI value I decided to remove any grouping with a sample size less than 10 as it would be difficult to accurately draw conclusions from these few data points. 
 
