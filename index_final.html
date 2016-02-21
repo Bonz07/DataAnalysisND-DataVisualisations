@@ -25,12 +25,12 @@
         
           "use strict";
           var margin = 50,
-              width = 1500,
+              width = 1350,
               height = 600;
           
           d3.select('body')
             .append('h2')
-            .text("How average number of Home Runs increase with BMI in the top 100 Baseball players");
+            .text("How average number of Home Runs increase with BMI in Baseball players");
           
           var svg = d3.select("body")
             .append("svg")
@@ -38,76 +38,6 @@
               .attr("height", height)
             .append('g')
                 .attr('class','chart');
-
-      /*
-        Background rectangle for the two BMI categorys. These are added first
-        behind the chart to not affect the tootip
-      */
-
-      /*
-          svg.append("rect")
-            .attr("x",100)
-            .attr("y", 0)
-            .attr("height", 340)
-            .attr("width", 525)
-            .style("opacity", 0.1)
-            .style("fill","green");
-
-          svg.append("rect")
-            .attr("x",625)
-            .attr("y", 0)
-            .attr("height", 340)
-            .attr("width", 525)
-            .style("opacity", 0.1)
-            .style("fill","red");
-      */
-      /*
-        Add border line to shaded areas
-      */
-      /*    svg.append("line")
-                    .attr("x1",625)
-                    .attr("x2", 625)
-                    .attr("y1", 0)
-                    .attr("y2", 340)
-                    .style("stroke", "green")
-                    .style("stroke-dasharray", "3");
-      */
-      /*
-       Add description about the BMI category ranges
-      */ 
-       /*   svg.selectAll("title_text")
-            .data(["Normal BMI range"])
-            .enter()
-            .append("text")
-              .attr("x", 300)
-              .attr("y", function (d, i) 
-                    { return 400 + i * 14; })
-              .style("font-family", 
-                     "sans-serif")
-              .style("font-size", 
-                     "18px")
-              .style("color", 
-                     "red")
-              .text(function (d) 
-                    { return d; });
-          
-          svg.selectAll("title_text")
-            .data(["Overweight BMI range"])
-            .enter()
-            .append("text")
-              .attr("x", 800)
-              .attr("y", function (d, i) 
-                    { return 400 + i * 14; })
-              .style("font-family", 
-                     "sans-serif")
-              .style("font-size", 
-                     "18px")
-              .style("color", 
-                     "red")
-              .text(function (d) 
-                    { return d; });
-       /*
-
 
       /*
         dimple.js chart construction code
@@ -174,7 +104,7 @@
       */
 
           myLegend._getEntries = function () {
-            var orderedValues = ["21", "22", "23", "24", "25", "26", "27", "28", "29"];
+            var orderedValues = ["21", "22", "23", "24", "25", "26", "27", "28"];
             var entries = [];
             orderedValues.forEach(function (v) {
               entries.push(
@@ -255,7 +185,7 @@
   </head>
 <body>
   <script type="text/javascript">
-  d3.csv("data/top100.csv", draw);
+  d3.csv("data/final_data.csv", draw);
   </script>
 </body>
 </html>
