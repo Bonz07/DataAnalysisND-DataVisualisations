@@ -71,21 +71,30 @@ After finishing my baseball data visualisation I asked three Data Analyst collea
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/interview3.png" width="800">
 
-####Udacity Reviewer feedback
+####Udacity Reviewer feedback 1
 *"I look at the final visualization first before the README file, code or past iterations. Even though the chart is well designed and encoded, on its own, the visualization is more exploratory than explanatory; it allows the chart reader to explore the statistics of the top 100 players in the data set, but it isn't really showing a specific trend or explaining some sort of conclusion made after analyzing the data.*
 
 *I see big circles and small circles at all ranges on the y-axis. Looking at the tooltip, by process of elimination, circle radius is probably encoded to batting average although that isn't stated on the chart.*
 
 *Circle radius was encoded linearly to the batting average variable and then the limits on the variable were overridden in the code. A batting average of 0.24 looks tiny compared to a batting average of 0.28, which is misleading. The bigger circle looks about 10 times larger than the smaller circle, so the larger circle should map to a value of about 2.4 rather than 0.28. Circle radius should be encoded to the square root of the variable so that doubling the value doubles the area."*
 
+<img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/final_chart.png" width="800">
+
+####Udacity Reviewer feedback 2
+*"This visualization is great and close to passing. I like that it has the average line, which is the explanatory part. Then for people who are interested in exploring the names of the top 100 players, they can hover over the points and read the tooltips.*
+
+*The reason why I'm marking this off, however, is because of the sample size issue. The explanatory trend is that home runs is tending to increase with BMI; however, that is only occurring at the far right end of the chart with BMI 28 and 29. But those points have very small sample sizes of two points each. So the explanatory trend is really that home runs increases at 28 and 29, but because the sample size is so small, that is a misleading finding.*
+
+*I did some quick plots in R to show what I am talking about. The plot on the left has an average line for all of the data. The plot on the right has separate average lines for the top 100 and the rest of the data. I didn't leave out the low and high ends of BMI, but if I were presenting this as an explanatory visualization, I would leave them out due to small sample sizes. Or another option would be to make those data points more opaque and explain to the reader that they are in the data set but the sample size is too low to make conclusions about those ends."*
+
 ####Final Design and Summary 
 My final baseball data visualisation was:
 
 <img src="https://github.com/Bonz07/DataVisualisations/blob/master/images/final_chart.png" width="800">
 
-I decided to focus the final chart on the finding that the average career Home Runs increases with BMI. The earlier exploratory chart showed this trend and I wanted to explore this further. Focusing on the top 100 home run hitters reduced the prominance of this change but did allow me to look at similar players to see whether the positive relationship remains.
+I decided to focus the final chart on the finding that the average career Home Runs increases with BMI. The earlier exploratory chart showed this trend and I wanted to explore this further. Initially I focused on the top 100 home run hitters, however this reduced the prominance of this change so I ultimately decided to use the full dataset of 1500+ baseball players. After grouping the players into nearest full BMI value I decided to remove any grouping with a sample size less than 10 as it would be difficult to accurately draw conclusions from these few data points. 
 
-The final chart also shows that as BMI increases average home runs also increase. This could be explained by the players with a larger BMI having a greater power ratio increasing the chances of a successful hit resulting in a home run. As seen earlier in the EDA a large number of the players have a similar batting average meaning that something like BMI might make the difference between a good and a great home run hitter.  
+The final chart also shows that overall as BMI increases average home runs also increase. This could be explained by the players with a larger BMI having a greater power ratio increasing the chances of a successful hit resulting in a home run. As seen earlier in the EDA a large number of the players have a similar batting average meaning that something like BMI might make the difference between a good and a great home run hitter.  
 
 ##Resources
 
